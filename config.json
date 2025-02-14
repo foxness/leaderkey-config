@@ -1,0 +1,152 @@
+{
+  "actions" : [
+    {
+      "type" : "application",
+      "value" : "/Applications/Google Chrome.app",
+      "key" : "q",
+      "label" : ""
+    },
+    {
+      "actions" : [
+        {
+          "value" : "/Applications/Safari.app",
+          "type" : "application",
+          "key" : "s",
+          "label" : ""
+        },
+        {
+          "value" : "/Applications/Mail.app",
+          "label" : "",
+          "key" : "e",
+          "type" : "application"
+        }
+      ],
+      "key" : "o",
+      "label" : "",
+      "type" : "group"
+    },
+    {
+      "key" : "r",
+      "label" : "",
+      "actions" : [
+        {
+          "type" : "url",
+          "label" : "",
+          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols",
+          "key" : "e"
+        },
+        {
+          "type" : "url",
+          "label" : "",
+          "key" : "p",
+          "value" : "raycast://confetti"
+        },
+        {
+          "label" : "",
+          "value" : "raycast://extensions/raycast/system/open-camera",
+          "type" : "url",
+          "key" : "c"
+        },
+        {
+          "value" : "/System/Applications/iPhone Mirroring.app",
+          "key" : "i",
+          "label" : "",
+          "type" : "application"
+        }
+      ],
+      "type" : "group"
+    },
+    {
+      "type" : "application",
+      "value" : "/System/Applications/Utilities/Activity Monitor.app",
+      "key" : "c",
+      "label" : ""
+    },
+    {
+      "type" : "application",
+      "key" : "v",
+      "label" : "",
+      "value" : "/Applications/Visual Studio Code.app"
+    },
+    {
+      "type" : "group",
+      "actions" : [
+        {
+          "key" : "a",
+          "type" : "folder",
+          "label" : "",
+          "value" : "/Users/river/my/media"
+        },
+        {
+          "label" : "",
+          "type" : "folder",
+          "key" : "s",
+          "value" : "/Users/river/my/screenshots"
+        },
+        {
+          "value" : "/Users/river",
+          "type" : "folder",
+          "label" : "",
+          "key" : "d"
+        },
+        {
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive",
+          "type" : "folder",
+          "key" : "x",
+          "label" : ""
+        },
+        {
+          "type" : "folder",
+          "label" : "",
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/this-week",
+          "key" : "c"
+        },
+        {
+          "label" : "",
+          "value" : "/Users/river/my/tmp",
+          "type" : "folder",
+          "key" : "f"
+        },
+        {
+          "type" : "folder",
+          "key" : "q",
+          "value" : "/Users/river/Downloads",
+          "label" : ""
+        },
+        {
+          "label" : "",
+          "value" : "/Applications",
+          "type" : "folder",
+          "key" : "w"
+        },
+        {
+          "value" : "/usr/local/bin/keyboardmaestro River_OpenRecents",
+          "type" : "command",
+          "key" : "r",
+          "label" : "Recents"
+        }
+      ],
+      "label" : "[[ Z ]]",
+      "key" : "z"
+    },
+    {
+      "type" : "command",
+      "label" : "Toggle Amphetamine",
+      "key" : "/",
+      "value" : "/usr/local/bin/keyboardmaestro River_ToggleAmphetamine"
+    },
+    {
+      "label" : "Toggle Ice",
+      "value" : "/usr/local/bin/keyboardmaestro River_ToggleIce",
+      "type" : "command",
+      "key" : "'"
+    },
+    {
+      "type" : "application",
+      "value" : "/Applications/Discord.app",
+      "key" : "w",
+      "label" : null
+    }
+  ],
+  "type" : "group"
+}
