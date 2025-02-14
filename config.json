@@ -1,45 +1,45 @@
 {
-  "type" : "group",
   "actions" : [
     {
-      "label" : "",
       "value" : "/Applications/Google Chrome.app",
-      "key" : "q",
-      "type" : "application"
+      "type" : "application",
+      "label" : "",
+      "key" : "q"
     },
     {
-      "type" : "group",
-      "label" : "",
-      "key" : "o",
       "actions" : [
-        {
-          "key" : "s",
-          "value" : "/Applications/Safari.app",
-          "label" : "",
-          "type" : "application"
-        },
         {
           "type" : "application",
-          "value" : "/Applications/Mail.app",
+          "value" : "/Applications/Safari.app",
           "label" : "",
-          "key" : "e"
+          "key" : "s"
+        },
+        {
+          "label" : "",
+          "key" : "e",
+          "value" : "/Applications/Mail.app",
+          "type" : "application"
         }
-      ]
+      ],
+      "label" : "",
+      "key" : "o",
+      "type" : "group"
     },
     {
       "label" : "",
+      "key" : "r",
       "actions" : [
         {
-          "key" : "e",
           "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols",
+          "key" : "e",
           "label" : "",
           "type" : "url"
         },
         {
-          "key" : "c",
+          "value" : "raycast://extensions/raycast/system/open-camera",
           "type" : "url",
-          "label" : "",
-          "value" : "raycast://extensions/raycast/system/open-camera"
+          "key" : "c",
+          "label" : ""
         },
         {
           "key" : "i",
@@ -48,67 +48,63 @@
           "value" : "/System/Applications/iPhone Mirroring.app"
         },
         {
-          "key" : "k",
-          "type" : "application",
           "label" : "",
-          "value" : "/Applications/krita.app"
+          "key" : "k",
+          "value" : "/Applications/krita.app",
+          "type" : "application"
         },
         {
-          "label" : "",
+          "key" : "p",
           "value" : "/Applications/PureRef.app",
-          "type" : "application",
-          "key" : "p"
+          "label" : "",
+          "type" : "application"
         },
         {
           "key" : "s",
-          "label" : null,
           "type" : "application",
+          "label" : "",
           "value" : "/Applications/Sourcetree.app"
         }
       ],
-      "key" : "r",
       "type" : "group"
     },
     {
+      "type" : "application",
       "key" : "c",
-      "value" : "/System/Applications/Utilities/Activity Monitor.app",
       "label" : "",
-      "type" : "application"
+      "value" : "/System/Applications/Utilities/Activity Monitor.app"
     },
     {
       "type" : "application",
-      "key" : "v",
+      "label" : "",
       "value" : "/Applications/Visual Studio Code.app",
-      "label" : ""
+      "key" : "v"
     },
     {
-      "type" : "group",
-      "label" : "[[ Z ]]",
-      "key" : "z",
       "actions" : [
         {
-          "type" : "folder",
-          "label" : "",
+          "value" : "/Users/river/my/media",
           "key" : "a",
-          "value" : "/Users/river/my/media"
-        },
-        {
           "type" : "folder",
-          "value" : "/Users/river/my/screenshots",
-          "key" : "s",
           "label" : ""
         },
         {
-          "label" : "",
-          "value" : "/Users/river",
           "type" : "folder",
-          "key" : "d"
+          "key" : "s",
+          "value" : "/Users/river/my/screenshots",
+          "label" : ""
         },
         {
+          "key" : "d",
+          "value" : "/Users/river",
+          "label" : "",
+          "type" : "folder"
+        },
+        {
+          "key" : "x",
           "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive",
           "type" : "folder",
-          "label" : "",
-          "key" : "x"
+          "label" : ""
         },
         {
           "label" : "",
@@ -117,9 +113,9 @@
           "type" : "folder"
         },
         {
-          "type" : "folder",
-          "value" : "/Users/river/my/tmp",
           "label" : "",
+          "value" : "/Users/river/my/tmp",
+          "type" : "folder",
           "key" : "f"
         },
         {
@@ -131,34 +127,44 @@
         {
           "value" : "/Applications",
           "label" : "",
-          "type" : "folder",
-          "key" : "w"
+          "key" : "w",
+          "type" : "folder"
         },
         {
-          "key" : "r",
-          "value" : "/usr/local/bin/keyboardmaestro River_OpenRecents",
           "type" : "command",
-          "label" : "Recents"
+          "label" : "Recents",
+          "value" : "/usr/local/bin/keyboardmaestro River_OpenRecents",
+          "key" : "r"
+        },
+        {
+          "type" : "folder",
+          "value" : "/Users/river/my/art",
+          "key" : "z",
+          "label" : null
         }
-      ]
+      ],
+      "label" : "[[ Z ]]",
+      "type" : "group",
+      "key" : "z"
     },
     {
-      "type" : "command",
       "key" : "/",
+      "type" : "command",
       "value" : "/usr/local/bin/keyboardmaestro River_ToggleAmphetamine",
       "label" : "Toggle Amphetamine"
     },
     {
+      "label" : "Toggle Ice",
       "value" : "/usr/local/bin/keyboardmaestro River_ToggleIce",
       "type" : "command",
-      "key" : "'",
-      "label" : "Toggle Ice"
+      "key" : "'"
     },
     {
-      "type" : "application",
-      "value" : "/Applications/Discord.app",
       "key" : "w",
-      "label" : ""
+      "type" : "application",
+      "label" : "",
+      "value" : "/Applications/Discord.app"
     }
-  ]
+  ],
+  "type" : "group"
 }
