@@ -2,147 +2,147 @@
   "type" : "group",
   "actions" : [
     {
-      "value" : "/Applications/Google Chrome.app",
       "key" : "q",
-      "label" : "",
-      "type" : "application"
+      "value" : "/Applications/Google Chrome.app",
+      "type" : "application",
+      "label" : ""
     },
     {
-      "label" : "",
       "type" : "group",
       "key" : "o",
+      "label" : "",
       "actions" : [
         {
           "value" : "/Applications/Safari.app",
           "label" : "",
-          "key" : "s",
-          "type" : "application"
+          "type" : "application",
+          "key" : "s"
         },
         {
-          "label" : "",
+          "type" : "application",
           "key" : "e",
           "value" : "/Applications/Mail.app",
-          "type" : "application"
+          "label" : ""
         }
       ]
     },
     {
+      "key" : "r",
+      "type" : "group",
+      "label" : "",
       "actions" : [
         {
+          "type" : "url",
           "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols",
           "key" : "e",
-          "label" : "",
-          "type" : "url"
+          "label" : ""
         },
         {
           "key" : "c",
-          "label" : "",
+          "type" : "url",
           "value" : "raycast://extensions/raycast/system/open-camera",
-          "type" : "url"
+          "label" : ""
         },
         {
-          "key" : "i",
           "type" : "application",
-          "label" : "",
-          "value" : "/System/Applications/iPhone Mirroring.app"
+          "key" : "i",
+          "value" : "/System/Applications/iPhone Mirroring.app",
+          "label" : ""
+        },
+        {
+          "key" : "k",
+          "value" : "/Applications/krita.app",
+          "type" : "application",
+          "label" : ""
         },
         {
           "label" : "",
-          "value" : "/Applications/krita.app",
-          "key" : "k",
+          "key" : "p",
+          "type" : "application",
+          "value" : "/Applications/PureRef.app"
+        },
+        {
+          "label" : "",
+          "value" : "/Applications/Sourcetree.app",
+          "key" : "s",
           "type" : "application"
         },
         {
-          "type" : "application",
-          "value" : "/Applications/PureRef.app",
-          "label" : "",
-          "key" : "p"
-        },
-        {
-          "key" : "s",
-          "type" : "application",
-          "label" : "",
-          "value" : "/Applications/Sourcetree.app"
-        },
-        {
+          "value" : "/Applications/Steam.app",
           "key" : "g",
-          "label" : "",
           "type" : "application",
-          "value" : "/Applications/Steam.app"
+          "label" : ""
         },
         {
-          "label" : null,
-          "value" : "/Applications/Horo.app",
           "type" : "application",
+          "value" : "/Applications/Horo.app",
+          "label" : "",
           "key" : "h"
         }
-      ],
-      "key" : "r",
-      "type" : "group",
-      "label" : ""
-    },
-    {
-      "type" : "application",
-      "key" : "c",
-      "value" : "/System/Applications/Utilities/Activity Monitor.app",
-      "label" : ""
+      ]
     },
     {
       "label" : "",
-      "key" : "v",
-      "value" : "/Applications/Visual Studio Code.app",
+      "value" : "/System/Applications/Utilities/Activity Monitor.app",
+      "key" : "c",
       "type" : "application"
+    },
+    {
+      "key" : "v",
+      "type" : "application",
+      "label" : "",
+      "value" : "/Applications/Visual Studio Code.app"
     },
     {
       "type" : "group",
       "actions" : [
         {
-          "key" : "a",
           "type" : "folder",
           "value" : "/Users/river/my/art",
-          "label" : ""
+          "label" : "",
+          "key" : "a"
         },
         {
-          "type" : "folder",
-          "label" : "",
+          "value" : "/Users/river/my/screenshots",
           "key" : "s",
-          "value" : "/Users/river/my/screenshots"
-        },
-        {
           "type" : "folder",
-          "value" : "/Users/river/my/media",
-          "key" : "d",
           "label" : ""
         },
         {
-          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive",
+          "type" : "folder",
+          "key" : "d",
           "label" : "",
-          "key" : "x",
-          "type" : "folder"
+          "value" : "/Users/river/my/media"
         },
         {
-          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/this-week",
-          "key" : "c",
+          "key" : "x",
           "label" : "",
-          "type" : "folder"
+          "type" : "folder",
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive"
+        },
+        {
+          "key" : "c",
+          "type" : "folder",
+          "label" : "",
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/this-week"
         },
         {
           "type" : "folder",
           "value" : "/Users/river/my/tmp",
-          "label" : "",
-          "key" : "f"
+          "key" : "f",
+          "label" : ""
         },
         {
-          "label" : "",
-          "value" : "/Users/river/Downloads",
           "key" : "q",
-          "type" : "folder"
+          "type" : "folder",
+          "value" : "/Users/river/Downloads",
+          "label" : ""
         },
         {
           "type" : "folder",
           "label" : "",
-          "value" : "/Applications",
-          "key" : "w"
+          "key" : "w",
+          "value" : "/Applications"
         },
         {
           "label" : "Recents",
@@ -152,18 +152,24 @@
         },
         {
           "key" : "z",
+          "value" : "/Users/river",
           "type" : "folder",
+          "label" : ""
+        },
+        {
           "label" : "",
-          "value" : "/Users/river"
+          "value" : "/Users/river/my/music",
+          "type" : "folder",
+          "key" : "m"
         }
       ],
-      "label" : "[[ Z ]]",
-      "key" : "z"
+      "key" : "z",
+      "label" : "[[ Z ]]"
     },
     {
+      "label" : "Toggle Amphetamine",
       "type" : "command",
       "value" : "/usr/local/bin/keyboardmaestro River_ToggleAmphetamine",
-      "label" : "Toggle Amphetamine",
       "key" : "/"
     },
     {
@@ -173,10 +179,10 @@
       "type" : "command"
     },
     {
-      "key" : "w",
-      "value" : "/Applications/Discord.app",
       "type" : "application",
-      "label" : ""
+      "value" : "/Applications/Discord.app",
+      "label" : "",
+      "key" : "w"
     }
   ]
 }
