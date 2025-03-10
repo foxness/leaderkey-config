@@ -140,6 +140,12 @@
           "label" : "",
           "type" : "application",
           "value" : "/Applications/Discord.app"
+        },
+        {
+          "key" : "q",
+          "label" : null,
+          "type" : "application",
+          "value" : "/Applications/Allusion.app"
         }
       ],
       "key" : "x",
