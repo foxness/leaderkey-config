@@ -1,25 +1,86 @@
 {
   "actions" : [
     {
-      "key" : "q",
-      "label" : "",
-      "type" : "application",
-      "value" : "/Applications/Google Chrome.app"
-    },
-    {
       "actions" : [
         {
-          "key" : "e",
+          "key" : "z",
           "label" : "",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+          "type" : "folder",
+          "value" : "/Users/river/my"
+        },
+        {
+          "key" : "x",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river"
         },
         {
           "key" : "c",
           "label" : "",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/system/open-camera"
+          "type" : "folder",
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive"
         },
+        {
+          "key" : "a",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/my/art"
+        },
+        {
+          "key" : "s",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/my/screenshots"
+        },
+        {
+          "key" : "d",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/Downloads"
+        },
+        {
+          "key" : "q",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/this-week"
+        },
+        {
+          "key" : "w",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Applications"
+        },
+        {
+          "key" : "e",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/art-reference"
+        },
+        {
+          "key" : "r",
+          "label" : "Recents",
+          "type" : "command",
+          "value" : "/usr/local/bin/keyboardmaestro River_OpenRecents"
+        },
+        {
+          "key" : "f",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/my/tmp"
+        },
+        {
+          "key" : "v",
+          "label" : "",
+          "type" : "folder",
+          "value" : "/Users/river/my/music"
+        }
+      ],
+      "key" : "z",
+      "label" : "Open Folder",
+      "type" : "group"
+    },
+    {
+      "actions" : [
         {
           "key" : "i",
           "label" : "",
@@ -55,134 +116,55 @@
           "label" : "",
           "type" : "application",
           "value" : "/Applications/Horo.app"
-        }
-      ],
-      "key" : "r",
-      "label" : "Run",
-      "type" : "group"
-    },
-    {
-      "key" : "c",
-      "label" : "",
-      "type" : "application",
-      "value" : "/System/Applications/Utilities/Activity Monitor.app"
-    },
-    {
-      "key" : "v",
-      "label" : "",
-      "type" : "application",
-      "value" : "/Applications/Visual Studio Code.app"
-    },
-    {
-      "actions" : [
+        },
         {
           "key" : "a",
           "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/my/art"
+          "type" : "application",
+          "value" : "/System/Applications/Utilities/Activity Monitor.app"
         },
         {
-          "key" : "s",
+          "key" : "v",
           "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/my/screenshots"
-        },
-        {
-          "key" : "d",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/my/media"
-        },
-        {
-          "key" : "x",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive"
-        },
-        {
-          "key" : "c",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/this-week"
-        },
-        {
-          "key" : "f",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/my/tmp"
-        },
-        {
-          "key" : "q",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/Downloads"
-        },
-        {
-          "key" : "w",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Applications"
-        },
-        {
-          "key" : "r",
-          "label" : "Recents",
-          "type" : "command",
-          "value" : "/usr/local/bin/keyboardmaestro River_OpenRecents"
+          "type" : "application",
+          "value" : "/Applications/Visual Studio Code.app"
         },
         {
           "key" : "z",
           "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river"
+          "type" : "application",
+          "value" : "/Applications/Zed.app"
         },
         {
-          "key" : "m",
+          "key" : "d",
           "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/my/music"
-        },
-        {
-          "key" : "e",
-          "label" : "",
-          "type" : "folder",
-          "value" : "/Users/river/Library/CloudStorage/GoogleDrive-foxnezz@gmail.com/My Drive/art-reference"
+          "type" : "application",
+          "value" : "/Applications/Discord.app"
         }
       ],
-      "key" : "z",
-      "label" : "Folder",
+      "key" : "x",
+      "label" : "Run App",
       "type" : "group"
     },
     {
-      "key" : "w",
-      "label" : "",
-      "type" : "application",
-      "value" : "/Applications/Discord.app"
-    },
-    {
-      "key" : "l",
-      "label" : "LeaderKey Settings",
-      "type" : "command",
-      "value" : "/usr/local/bin/keyboardmaestro River_OpenLeaderKeySettings"
-    },
-    {
       "actions" : [
-        {
-          "key" : "x",
-          "label" : "Maximize Window",
-          "type" : "command",
-          "value" : "/usr/local/bin/keyboardmaestro River_WindowMaximize"
-        },
-        {
-          "key" : "c",
-          "label" : "Center Window",
-          "type" : "command",
-          "value" : "/usr/local/bin/keyboardmaestro River_WindowCenter"
-        },
         {
           "key" : "z",
           "label" : "Return Window",
           "type" : "command",
           "value" : "/usr/local/bin/keyboardmaestro River_WindowReturn"
+        },
+        {
+          "key" : "x",
+          "label" : "Center Window",
+          "type" : "command",
+          "value" : "/usr/local/bin/keyboardmaestro River_WindowCenter"
+        },
+        {
+          "key" : "c",
+          "label" : "Maximize Window",
+          "type" : "command",
+          "value" : "/usr/local/bin/keyboardmaestro River_WindowMaximize"
         },
         {
           "key" : "a",
@@ -197,9 +179,15 @@
           "value" : "/usr/local/bin/keyboardmaestro River_WindowRight"
         }
       ],
-      "key" : "x",
-      "label" : "Window",
+      "key" : "c",
+      "label" : "Manage Window",
       "type" : "group"
+    },
+    {
+      "key" : ",",
+      "label" : "LeaderKey Settings",
+      "type" : "command",
+      "value" : "/usr/local/bin/keyboardmaestro River_OpenLeaderKeySettings"
     }
   ],
   "type" : "group"
