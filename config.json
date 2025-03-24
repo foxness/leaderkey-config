@@ -100,13 +100,13 @@
           "value" : "/Applications/PureRef.app"
         },
         {
-          "key" : "s",
+          "key" : "c",
           "label" : "",
           "type" : "application",
           "value" : "/Applications/Sourcetree.app"
         },
         {
-          "key" : "g",
+          "key" : "s",
           "label" : "",
           "type" : "application",
           "value" : "/Applications/Steam.app"
@@ -143,7 +143,7 @@
         },
         {
           "key" : "q",
-          "label" : null,
+          "label" : "",
           "type" : "application",
           "value" : "/Applications/Allusion.app"
         }
